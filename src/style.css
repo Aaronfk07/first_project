@@ -1,27 +1,39 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif; /* Use a more elegant font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 0;
+    background: #333; /* Dark gray header */
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
+    border-bottom: 2px solid #fff; /* White border at the bottom */
 }
 
 main {
-    padding: 20px;
+    padding: 40px; /* Increased padding for a more spacious layout */
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* Increased margin for better separation */
+    padding: 20px; /* Padding inside sections */
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background for sections */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif; /* Consistent font for headings */
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background: #f1f1f1;
+    padding: 20px 0;
+    background: #333; /* Dark gray footer */
+    color: #fff;
+    border-top: 2px solid #fff; /* White border at the top */
 }
