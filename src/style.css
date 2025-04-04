@@ -1,5 +1,5 @@
 body {
-    font-family: 'Georgia', serif; /* Use a more elegant font */
+    font-family: 'Arial', sans-serif; /* Use a modern sans-serif font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #333; /* Dark gray header */
+    background: #1c1c1c; /* Darker gray header */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -24,16 +24,23 @@ section {
     padding: 20px; /* Padding inside sections */
     background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background for sections */
     border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Subtle shadow for depth */
 }
 
 h1, h2 {
-    font-family: 'Georgia', serif; /* Consistent font for headings */
+    font-family: 'Arial', sans-serif; /* Consistent sans-serif font for headings */
+    margin: 0; /* Remove default margin */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger font size for the main title */
+}
+
+h2 {
+    font-size: 2em; /* Slightly larger font size for section titles */
+    margin-top: 20px; /* Add space above section titles */
 }
 
 footer {
     text-align: center;
-    padding: 20px 0;
-    background: #333; /* Dark gray footer */
-    color: #fff;
-    border-top: 2px solid #fff; /* White border at the top */
-}
+    padding: 20px
