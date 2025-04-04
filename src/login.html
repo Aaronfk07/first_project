@@ -4,6 +4,71 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="style.css"> <!-- Link to your CSS for styling -->
+    <style>
+        body {
+            background-color: #282c34; /* Dark background for the login page */
+            color: #ffffff; /* White text for contrast */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            background: rgba(44, 44, 44, 0.9); /* Slightly transparent dark background for the form */
+            padding: 40px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column; /* Stack form elements vertically */
+        }
+
+        div {
+            margin-bottom: 15px; /* Space between form elements */
+        }
+
+        label {
+            margin-bottom: 5px; /* Space between label and input */
+            font-weight: bold; /* Bold labels */
+        }
+
+        input {
+            padding: 10px; /* Padding inside input fields */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners for input fields */
+            background: #ffffff; /* White background for input fields */
+            color: #000; /* Black text for input fields */
+        }
+
+        button {
+            padding: 10px; /* Padding inside button */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners for button */
+            background: #61dafb; /* Light blue background for button */
+            color: #000; /* Black text for button */
+            cursor: pointer; /* Pointer cursor on hover */
+            font-weight: bold; /* Bold text for button */
+            transition: background 0.3s; /* Smooth transition for hover effect */
+        }
+
+        button:hover {
+            background: #21a1f1; /* Darker blue on hover */
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
     <script>
         function handleLogin(event) {
             event.preventDefault(); // Prevent the default form submission
